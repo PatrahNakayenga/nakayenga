@@ -273,3 +273,21 @@ color:white;
 input{
 input [type="submit"]{
 background-color: #003366;}  
+
+
+ button{
+
+ }
+
+
+
+@media(max-width:768px){
+
+ 
+}
+
+
+@media(max-width: 480px){
+
+ 
+}
