@@ -1,0 +1,275 @@
+
+body{
+ font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+background-color:#E1D9D1;
+color:#333;
+}
+
+
+header {
+            background-color: #003366;
+            padding:10px 0;
+            color:#fff;
+           
+
+
+        }
+
+nav{
+
+
+display:flex;
+justify-content:space-around;
+align-items:
+ 
+}
+
+
+nav a{
+font-weight:bold;
+color:white;
+text-decoration: none;
+font-size;18px;
+padding: 10px 15px;
+
+}
+
+
+  nav a:hover {
+background-color: #0059b3;
+        
+
+}
+
+
+main{
+padding:40px 20px;
+max-width:1200px;
+margin:0 auto;
+background-color:white;
+}
+
+
+.intro{
+text-align:"center";
+margin-bottom:50px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.intro p{
+font-size:18px;
+margin:20px;
+ color: #666;
+text-align:center;
+}
+
+.intro h1{
+color:#003366;
+text-align:center;
+}
+
+
+
+
+.introimg{
+width:250px;
+height:250px;
+border-radius:500%;
+justify-content:center;
+align-items: center;
+margin:0 450px; 
+display:flex;
+}
+
+
+
+.intro button {
+            background-color: #003366;
+
+color:white;
+border:none;
+padding:10px 20px;
+font-size:15px;
+cursor:pointer;
+border-radius:5px;
+text-align:center;
+
+
+}
+
+
+
+
+ .intro button a {
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+ .intro button:hover {
+background-color: #0059b3;
+}
+h1{
+color: #003366;
+text-align: center;
+
+
+}
+
+
+
+.service-grid{
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap:40px;
+max-width:1200px;
+margin:auto 0;
+
+}
+
+
+
+.service-card{
+background-color:white;
+border-radius:10px;
+box-shadow:0 4px 8px;
+padding:20px;
+text-align:center;
+
+}
+
+
+.service-card h2{
+color: #003366;
+}
+
+
+
+.service-card p {
+font-size: 16px;
+color: #666;
+}
+.service-card-img{
+width:350px;
+height:auto;
+margin-top:10px;
+border-radius:10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align:center;
+}
+
+
+footer{
+background-color:#003366;
+color:white;
+text-align:center;
+padding:15px 0;
+}
+footer a {
+color: #e6e6e6;
+text-decoration: none;
+ }
+.overallabout {
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+
+.about-us h1 {
+color:#003366;
+font-size:36px;
+bottom-margin:0px;
+
+
+}
+
+
+.aboutfont{
+
+font-size:18px;
+color:#666;
+in-height:1.1;
+text-align:center;
+padding: 10px;
+}
+
+.services-grid{
+display:flex;
+
+}
+
+
+.servicebox{
+background-color: #e6f2ff;
+font-size:large;
+width: 450px;
+height:300px;
+margin: 50px;
+text-align:center;
+color:#666;
+border-radius:10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+
+.servicebox h2, .servicebox h1 {
+    color: #003366;
+    text-align: center;
+}
+
+
+
+
+form{
+display:flex;
+background-color:white;
+}
+
+.contact{
+margin:0 450px;
+padding:60px;
+}
+
+
+
+
+.contact h2{
+text-align:center;
+font-size: 15px
+}
+
+
+label{
+font-size:18px;
+color:#003366
+}
+
+input{
+input[type="name"],
+input[type="email"],
+select{
+padding:10px;
+border: 1px solid #ccc;
+ font-size: 16px;
+ /*width: 100%;*/
+color:white;
+
+}
+
+
+}
+
+input{
+input [type="submit"]{
+background-color: #003366;}  
