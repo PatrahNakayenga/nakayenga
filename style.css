@@ -9,15 +9,13 @@ background-color:#E1D9D1;
 font-size:16px;
 line-height:1.5;
 color:#333;
-flex-wrap: wrap;
 }
 
 
 header {
 background-color: #003366;
-padding:10px 0;
-color:#fff;
-max-height:80vh;           
+padding:10px;
+color:#fff;           
 
 
         }
@@ -27,7 +25,7 @@ nav{
 
 display:flex;
 justify-content:space-around;
-align-items:
+align-items:center;
  
 }
 
@@ -44,7 +42,7 @@ padding: 10px 15px;
 
   nav a:hover {
 background-color: #0059b3;
-          border-radius:10px;
+border-radius:5px;
 
 }
 
@@ -61,7 +59,8 @@ background-color:white;
 text-align:"center";
 margin-bottom:50px;
 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-flex-wrap: wrap;
+/*flex-wrap: wrap;*/
+padding:10px;
 }
 
 
@@ -74,12 +73,11 @@ text-align:center;
 
 .intro h1{
 color:#003366;
-text-align:center;
 }
 
 
 
-
+/*
 .introimg{
 width:250px;
 height:250px;
@@ -88,9 +86,17 @@ justify-content:center;
 align-items: center;
 margin:0 450px; 
 max-width:100%;
-display:flex;
+display:block;
 }
-
+*/
+.introimg {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
 
 
 .intro button {
@@ -102,8 +108,6 @@ padding:10px 20px;
 font-size:15px;
 cursor:pointer;
 border-radius:5px;
-text-align:center;
-
 
 }
 
@@ -131,12 +135,12 @@ text-align: center;
 
 
 
-.service-grid{
+.services-grid{
 display:grid;
 grid-template-columns: 1fr 1fr;
 max-width:1200px;
-margin:auto 0;
-gap:40px;
+margin:auto;
+gap:20px;
 
 }
 
@@ -171,6 +175,15 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 text-align:center;
 }
 
+/*
+.service-card-img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+*/
 
 footer{
 background-color:#003366;
@@ -206,19 +219,16 @@ in-height:1.1;
 text-align:center;
 padding: 10px;
 }
-
+/*
 .services-grid{
 display:flex;
 
 }
-
+*/
 
 .servicebox{
 background-color: #e6f2ff;
-font-size:large;
-width: 450px;
-height:300px;
-margin: 50px;
+font-size:16px;
 text-align:center;
 color:#666;
 border-radius:10px;
@@ -286,8 +296,8 @@ background-color: #003366;}
 
 
 .logo{
-width:123;
-height:105;
+width:75;
+height:64;
 
 }
 
@@ -304,30 +314,35 @@ margin:0 450px;
                 flex-direction: column;
                 padding: 10px;
             }
-
-            .services-grid {
+                .intro button{
+                padding:10px;
+                font-size:14px;
+}
+                     .services-grid {
                 grid-template-columns: 1fr;
                 padding: 0 20px;
             }
 
-            .service-card {
-                padding: 15px;
+                  .servicebox{
+
+                     padding 15px;
+                        
+
+}
             }
-        }
 
 @media (max-width: 480px) {
             nav a {
                 font-size: 16px;
                 padding: 8px;
             }
-
-            .intro h1,
-            .services-grid h1 {
+             
+            .intro h1, .services-grid {
                 font-size: 24px;
             }
 
             .intro p,
-            .service-card p {
+            .servicebox p {
                 font-size: 14px;
             }
 
@@ -340,5 +355,7 @@ margin:0 450px;
                 font-size: 14px;
 
 
+
+}
 
 }
